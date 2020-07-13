@@ -6,7 +6,7 @@ html {
   html body {
     text-align: center;
     font-family: 'Lobster', cursive;
-    background: #e9e9e9; }
+    background-image: linear-gradient(to top, #676291, #c3f8f0);}
 
     html body h2 {
       text-align: center;
@@ -23,11 +23,9 @@ html {
 
 .gallery img {
   margin: auto;
-  border: 3px solid #fff; 
 }
 
 a.photo:hover img {
-  border: 3px solid #034F80;
   filter: blur(2px);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -40,7 +38,6 @@ a.photo:hover img {
 
 .zoom {
   width: 100%;
-  overflow: hidden; 
 }
 
   .zoom a {
