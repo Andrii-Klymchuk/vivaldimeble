@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
 $mainColor: #e9e9e9;
 
 html {
@@ -21,13 +20,10 @@ h3 {
     text-align: center;
 }
 
-a {
-	    color: #EEC;
-	    text-decoration: none;
-            a:hover {
-	            color: #FFA;
-	            text-decoration: underline;
-                }}
+.col-xl-2, .col-md-3, .col-6 {
+    margin-bottom: 30px;
+  }
+
 }}
 
 .gallery img{
@@ -43,7 +39,12 @@ a.photo:hover img{
   transform: scale(1.1);
 }
 
-#zoom {
+.row {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+.zoom {
 	width:100%;
     overflow:hidden;
     a {
@@ -64,7 +65,7 @@ a.photo:hover img{
     }
 }
 
-#container {
+.tittle {
     display: flex;
     flex-direction: column;
     float: left;
